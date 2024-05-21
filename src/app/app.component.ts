@@ -14,11 +14,11 @@ import { mailOutline, mailSharp, paperPlaneOutline, paperPlaneSharp, heartOutlin
 })
 export class AppComponent {
   public appPages = [
-    { title: 'Início', url: '/folder/inbox', icon: 'home' },
-    { title: 'Avaliação Física', url: '/folder/outbox', icon: 'body' },
-    { title: 'Alimentação', url: '/folder/favorites', icon: 'restaurant' },
-    { title: 'Nutrição', url: '/folder/archived', icon: 'nutrition' },
-    { title: 'Suplementação', url: '/folder/trash', icon: 'flash' }
+    { title: 'Início', url: '/home', icon: 'home' },
+    { title: 'Avaliação Física', url: '/avaliacao-fisica', icon: 'body' },
+    { title: 'Alimentação', url: '/alimentacao', icon: 'restaurant' },
+    { title: 'Nutrição', url: '/nutricao', icon: 'nutrition' },
+    { title: 'Suplementação', url: '/suplementacao', icon: 'flash' }
   ];
   constructor() {
     addIcons({ mailOutline, mailSharp, paperPlaneOutline, paperPlaneSharp, heartOutline, heartSharp, archiveOutline, archiveSharp, trashOutline, trashSharp, warningOutline, warningSharp, bookmarkOutline, bookmarkSharp, homeSharp, bodySharp, nutritionSharp, restaurantSharp, flashSharp });
