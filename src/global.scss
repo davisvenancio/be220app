@@ -42,6 +42,12 @@
     font-weight: normal;
     font-style: normal;
   }
+@font-face {
+    font-family: 'AnguitaSans';
+    src: url('/assets/fonts/Fontspring-DEMO-anguitasans-semibold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
 body {
   font-family: 'AnguitaSans', sans-serif;
 }
