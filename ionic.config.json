@@ -1,0 +1,7 @@
+{
+  "name": "be220app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
