@@ -1,10 +1,32 @@
 // For information on how to create your own theme, please see:
 // http://ionicframework.com/docs/theming/
 :root {
-    --ion-color-orange: #f07d07;
-    --ion-color-orange-rgb: 240, 125, 7;
-  }
-  $colors: (
-    orange: #f07d07,
-  );
-    
+  --ion-color-orange: #f07d07;
+  --ion-color-orange-rgb: 240, 125, 7;
+
+  --ion-color-white: #fff;
+  --ion-color-white-rgb: rgb(255, 255, 255);
+
+  --ion-color-light-black: #202020;
+  --ion-color-light-black-rgb: rgb(32, 32, 32);
+
+  --ion-color-dark-black: #040404;
+  --ion-color-dark-black-rgb: rgb(4, 4, 4);
+
+  --ion-color-dark-grey: #151515;
+  --ion-color-dark-grey-rgb: rgb(21, 21, 21);
+
+  --ion-color-light-green: #7df0d3;
+  --ion-color-light-green-rgb: rgb(125, 240, 211);
+
+  --ion-color-light-purple: #6a36e8;
+  --ion-color-light-purple-rgb: rgb(106, 54, 232);
+}
+$colors: (
+  orange: #f07d07,
+  light-black: #202020,
+  dark-black: #040404,
+  light-green: #7df0d3,
+  light-purple: #6a36e8,
+  white: #fff,
+);
