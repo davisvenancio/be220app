@@ -1,0 +1,18 @@
+ion-content {
+    --background: #090909;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+ion-text{
+  color: var(--ion-color-white);
+  font-family: "AnguitaSans", sans-serif;
+  font-weight: bold;
+  text-align: justify;
+  letter-spacing: .15em;
+  font-size: 1.3em;
+  padding: 30px;
+}
