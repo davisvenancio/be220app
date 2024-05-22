@@ -15,10 +15,10 @@ import { mailOutline, mailSharp, paperPlaneOutline, paperPlaneSharp, heartOutlin
 export class AppComponent {
   public appPages = [
     { title: 'Início', url: '/home', icon: 'home' },
-    { title: 'Avaliação Física', url: '/avaliacao-fisica', icon: 'body' },
-    { title: 'Alimentação', url: '/alimentacao', icon: 'restaurant' },
-    { title: 'Nutrição', url: '/nutricao', icon: 'nutrition' },
-    { title: 'Suplementação', url: '/suplementacao', icon: 'flash' }
+    { title: 'Avaliação Física', url: '/fitness-checkup', icon: 'body' },
+    { title: 'Alimentação', url: '/meal-planning', icon: 'restaurant' },
+    { title: 'Nutrição', url: '/nutrition-guide', icon: 'nutrition' },
+    { title: 'Suplementação', url: '/supplementation', icon: 'flash' }
   ];
   constructor() {
     addIcons({ mailOutline, mailSharp, paperPlaneOutline, paperPlaneSharp, heartOutline, heartSharp, archiveOutline, archiveSharp, trashOutline, trashSharp, warningOutline, warningSharp, bookmarkOutline, bookmarkSharp, homeSharp, bodySharp, nutritionSharp, restaurantSharp, flashSharp });
