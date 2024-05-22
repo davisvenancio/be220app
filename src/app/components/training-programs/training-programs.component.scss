@@ -2,7 +2,7 @@
   font-family: "AnguitaSans", sans-serif;
 }
 h2 {
-  color: white;
+  color: var(--ion-color-white);
   font-weight: bold;
   margin-bottom: 0px;
 }
@@ -10,8 +10,8 @@ ion-grid {
   margin-left: 20px;
 }
 ion-icon {
-  color: #ffffff;
-  border: 1px solid #ffffff;
+  color: var(--ion-color-white);
+  border: 1px solid var(--ion-color-white);
   border-radius: 50%;
   margin: 3px;
   padding: 3px;
@@ -22,13 +22,13 @@ ion-col:nth-child(2){
     margin-top: 16px;
 }
 .latest {
-  filter: drop-shadow(0 0 0.35rem #f07d07);
+  filter: drop-shadow(0 0 0.35rem var(--ion-color-orange));
   p {
-    background-color: #f07d07;
+    background-color: var(--ion-color-orange);
     border-radius: 30px;
     font-size: 0.5em;
     padding: 2px 4px 2px 4px;
-    color: white;
+    color: var(--ion-color-white);
   }
 }
 .overlay {
@@ -47,14 +47,14 @@ ion-col:nth-child(2){
   border-radius: 15px;
   margin-right: 15px;
   p:nth-child(1) {
-    color: #f07d07;
+    color: var(--ion-color-orange);
     padding: 0px;
     margin: 0px 0px 5px 5px;
     font-weight: bold;
     font-size: 0.7em;
   }
   p:nth-child(2) {
-    color: white;
+    color: var(--ion-color-white);
     padding: 0px;
     margin: 0px 0px 0px 5px;
     font-weight: bold;
