@@ -1,45 +1,46 @@
 ion-header {
-    height: 215px;
-    border-radius: 0px 0px 55px 55px;
-    background-color: #202020;
+  height: 200px;
+  border-radius: 0px 0px 55px 55px;
+  background-color: var(--ion-color-light-black);
 }
-ion-menu-button{
-    color: #fdfdfd;
+ion-menu-button {
+  color: #fdfdfd;
 }
 ion-toolbar {
-    --background: #202020;
+  --background: var(--ion-color-light-black);
 }
 ion-icon {
-    width: 12px;
-    height: 12px;
-    color: #f07d07;
-    background-color: #040404;
-    padding: 6px;
-    border-radius: 100%;
-    display: inline-block;
+  width: 12px;
+  height: 12px;
+  color: var(--ion-color-orange);
+  background-color: var(--ion-color-dark-black);
+  padding: 6px;
+  border-radius: 100%;
+  display: inline-block;
 }
-ion-title{
-    text-align: center;
+ion-title {
+  text-align: center;
 }
-  .icon-noti{
-    margin-right: 18px;
-  }
-  .notification {
-    filter: drop-shadow(0 0 0.15rem #7df0d3);
-    width: 10px;
-    height: 10px; 
-    background-color: #7df0d3; 
-    border-radius: 50%; 
-    display: inline-block; 
-    margin-left: 10px; 
-  }
-
+img {
+  width: 80px;
+}
+.icon-noti {
+  margin-right: 18px;
+}
+.notification {
+  filter: drop-shadow(0 0 0.15rem #7df0d3);
+  width: 10px;
+  height: 10px;
+  background-color: var(--ion-color-light-green);
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 10px;
+}
 ion-buttons {
-    position: relative; 
+  position: relative;
 }
-  
 ion-buttons .notification {
-    position: absolute;
-    top: -1px;
-    right: -3px;
+  position: absolute;
+  top: -1px;
+  right: -3px;
 }
