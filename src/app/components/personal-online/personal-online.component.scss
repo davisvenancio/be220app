@@ -1,75 +1,70 @@
 :host {
-    font-family: 'AnguitaSans', sans-serif;
+  font-family: "AnguitaSans", sans-serif;
 }
-h2{
-    color: white;
-    font-weight: bold;
+h2 {
+  color: var(--ion-color-white);
+  font-weight: bold;
+  margin-bottom: 0px;
 }
-ion-grid{
-    margin-left: 20px;
+ion-grid {
+  margin-left: 20px;
 }
-ion-icon{
-
-    color: #f07d07;
-    border: 1px solid #f07d07;
-    border-radius: 50%;
-    margin: 3px;
-    padding: 3px;
-    width: 16px;
-    height: 16px;
+ion-icon {
+  color: var(--ion-color-orange);
+  border: 1px solid var(--ion-color-orange);
+  border-radius: 50%;
+  margin: 3px;
+  padding: 3px;
+  width: 16px;
+  height: 16px;
 }
-.teste{
-    display: flex;
+.teste {
+  display: flex;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
-.card-content{
-   
-    display: inline-block;
-    background-image: url('../../../assets/icon/man-gym-modified.webp');
-    background-size: cover;
-    width: 220px;
-    height: 130px;
-    border-radius: 15px;
-    margin-right: 20px;
-    p{
-        color: white;
-    }
-    ion-icon{
-        color: white;
-        border: 1px solid white;
-        width: 26px;
-        height: 26px;
-    }
-}
-.card-content:nth-child(2){
-    background-image: url('../../../assets/icon/young-woman-exercising-fitness-modified.webp');
-}
-
-.overlay {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.65);
+.card-content {
+  display: inline-block;
+  background-image: url("../../../assets/icon/man-gym-modified.webp");
+  background-size: cover;
+  width: 220px;
+  height: 130px;
+  border-radius: 15px;
+  margin-right: 15px;
+  p {
+    color: var(--ion-color-white);
   }
-  .card-content ion-buttons,
+  ion-icon {
+    color: var(--ion-color-white);
+    border: 1px solid var(--ion-color-white);
+    width: 26px;
+    height: 26px;
+  }
+}
+.overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+.card-content ion-buttons,
 .card-content p {
-    position: relative;
+  position: relative;
 }
 .container {
-    overflow-x: auto;
-    white-space: nowrap;
-    width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+  width: 100%;
+  p {
+    margin-left: 5px;
   }
-
-  .content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-  }
-  
-  
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
