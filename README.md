@@ -13,7 +13,6 @@ Este aplicativo foi desenvolvido usando o framework Ionic e o Firebase para arma
 3. Instale as dependências: `npm install`
 4. Execute o aplicativo: `ionic serve`
 
-## Como gerar um APK 
 
 ## Outras opções para visualização
 
