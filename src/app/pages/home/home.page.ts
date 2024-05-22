@@ -6,13 +6,14 @@ import { TrainingProgramsComponent } from '../../components/training-programs/tr
 import { addIcons } from 'ionicons';
 import { notificationsSharp } from 'ionicons/icons';
 import { HeaderComponent } from 'src/app/components/header/header.component';
+import { ContentComponent } from 'src/app/components/content/content.component';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.page.html',
   styleUrls: ['./home.page.scss'],
   standalone: true,
-  imports: [IonHeader, IonToolbar, IonButtons, IonMenuButton, IonTitle, IonContent, IonIcon,IonGrid,IonRow,IonCol,HeaderComponent, InfoProfileComponent, PersonalOnlineComponent, TrainingProgramsComponent],
+  imports: [IonHeader, IonToolbar, IonButtons, IonMenuButton, IonTitle, IonContent, IonIcon,IonGrid,IonRow,IonCol,HeaderComponent, InfoProfileComponent, PersonalOnlineComponent, TrainingProgramsComponent, ContentComponent],
 })
 export class HomePage implements OnInit {
 
