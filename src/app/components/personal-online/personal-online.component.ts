@@ -23,6 +23,7 @@ export class PersonalOnlineComponent  implements OnInit {
 
   ngOnInit() {
     this.trainingTypes$ = this.trainingTypeService.getTrainingTypes();
+    console.log("🚀 ~ PersonalOnlineComponent ~ ngOnInit ~ this.trainingTypes$:", this.trainingTypes$)
   } 
 
 }
